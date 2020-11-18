@@ -1,0 +1,20 @@
+<svg width="50.00000000000001" height="50.00000000000001" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="52" width="52" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="24.7487" rx="24.6862" id="svg_4" cy="25" cx="25" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="transparent"/>
+  <ellipse ry="0.12499" rx="24.49871" id="svg_5" cy="25.43162" cx="25.43748" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="transparent"/>
+  <ellipse ry="1.68741" rx="18.81151" id="svg_8" cy="10.86988" cx="25.24999" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="transparent"/>
+  <ellipse ry="1.8749" rx="19.18649" id="svg_9" cy="40.30583" cx="24.62502" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="transparent"/>
+  <ellipse ry="24.87369" rx="11.62439" id="svg_11" cy="24.68166" cx="25.31248" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="transparent"/>
+  <ellipse ry="0.37498" rx="24.06123" id="svg_12" cy="25.30662" cx="25" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="#fff"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="12.4323" x2="34.93698" y1="12.4323" x1="15.93798" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_14" y2="42.05574" x2="33.81204" y1="42.18074" x1="16.68794" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="8.75512" x2="34.34426" y1="9.08299" x1="17.29508" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_18" y2="38.26332" x2="35.32787" y1="38.26332" x1="15.98361" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#9e8c78" fill="none"/>
+ </g>
+</svg>

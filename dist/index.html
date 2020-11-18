@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=0.5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="main.min.css">
+  <title>Meta Primus Group</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="header" id="header">
+        <div class="header__wrap">
+          <div class="header__left" id="header-left">
+            <div class="header__logo">
+              <embed type="image/svg+xml" src="./images/icons/NEWLOGO.svg" class="header__logo_icon" />
+            </div>
+            <div class="header__info">
+              <div class="header__mail"><a href="mailto:info@metaprimus.eu" class="header__mail_link">info@metaprimus.eu</a></div>
+              <div class="header__phone">
+                <a href="tel:+420775267475">+420 775 267 475</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__right">
+            <div class="gamburger__menu">
+              <div class="gamburger__icon-wrap">
+                <img src="./images/icons/gamburger.svg" id="gamburger__menu" alt="menu-icon" class="gamburger__icon"/>
+                <img src="./images/icons/close.svg" id="gamburger__menu-close" alt="close-icon" class="gamburger__icon-close none"/>
+              </div>
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#hero" class="menu__link">ГЛАВНАЯ</a></li>
+                <li class="menu__item"><a href="#catalog" class="menu__link">КАТАЛОГ</a></li>
+                <li class="menu__item"><a href="#about" class="menu__link">УСЛУГИ</a></li>
+                <li class="menu__item"><a href="#kontakt" class="menu__link">КОНТАКТ</a></li>
+                <li class="menu__item"><a href="#fittings" class="menu__link">ФУРНИТУРА</a></li>
+                <li class="menu__item"><div class="menu__item menu__item_lang">
+                  <a href="" class="menu__link cz">CZ</a>
+                  <a href="" class="menu__link ru">RU</a>
+                </div></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <section class="section hero-section" id="hero">
+        <div class="main">
+          <div class="main__right">
+            <div class="main__right_wrap">
+              <div class="main__right_content">
+                <h1 class="main__right_title title animate__animated animate__pulse">Межкомнатные двери</h1>
+                <p class="main__right_desc">
+                  "Спокойствие в доме способствует спокойствию в сердце, что, в свою очередь, способствует размеренности в жизни" – Эрика Лэйне <br>
+                  Наши двери – это выбoр самодoстаточных людей, ценящих эстетику и уют, предпочитающих видеть вокруг себя сбалансированнoе пространствo.
+                </p>
+                <div class="main__right_btn"><a href="#catalog" class="main__right_link">Смотреть каталог
+                </a></div>
+              </div>
+            </div>
+          </div>
+          <div class="main__left"></div>
+        </div>
+      </section>
+      <div class="about" id="about">
+        <div class="about__wrap">
+          <div class="about__content">
+            <div class="about__header">
+              <h2 class="about__title title">Наши<span class="about__title_brown">
+                услуги
+              </span></h2>
+            </div>
+            <ul class="about__list">
+              <li class="about__item">
+                <div class="about__item_header">
+                  <img src="images/about/measure.png" alt="ruler" class="about__icon">
+                </div>
+                <p class="about__desc">Бесплатный замер</p>
+              </li>
+              <li class="about__item">
+                <div class="about__item_header about__item_header-car">
+                  <img src="images/about/delivery.png" alt="car" class="about__icon about__icon_car">
+                </div>
+                <p class="about__desc">Быстрая доставка</p>
+              </li>
+              <li class="about__item">
+                <div class="about__item_header">
+                  <img src="images/about/installation.png" alt="tools" class="about__icon">
+                </div>
+                <p class="about__desc">Качественный монтаж</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="models" id="models">
+        <div class="models__wrap">
+          <div class="models__content">
+            <div class="models__header">
+              <div class="models__title title">
+                <h2 class="models__title_brown">Популярные</h2>
+                <h2 class="models__title_white">модели</h2>
+              </div>
+              <div class="models__offers">
+                <p class="models__news"><a href="#" class="models__news_link">Новинки</a></p>
+                <p class="models__actions"><a href="#" class="models__actions_link">Акции</a></p>
+              </div>
+            </div>
+<!-- desctop version -->
+            <div class="slider slider__desctop_version">
+              <a href="#" class="left__ship-models slider-control-left" id="left-ship"></a>
+              <div class="slider__wrapper" id="slider__wrapper">
+                <ul class="slider__list slider__catalog">
+                  <li class="slider__item"><img src="./images/models/1.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/2.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/3.jpg" alt="interier" class="slider__img"></li>
+                </ul>
+                <ul class="slider__list slider__catalog">
+                  <li class="slider__item"><img src="./images/models/4.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/5.png" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/6.jpg" alt="interier" class="slider__img"></li>
+                </ul>
+              </div>
+              <a href="#" class="right__ship-models slider-control-right" id="right-ship"></a>
+            </div>
+<!-- mobile version -->
+            <div class="slider slider__mobile_version">
+              <a href="#" class="left__ship-models slider-control-left" id="left-ship_mob"></a>
+                <ul class="slider__list slider__catalog slider__wrapper_mob" id="slider__wrapper_mob">
+                  <li class="slider__item"><img src="./images/models/1.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/2.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/3.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/4.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/5.jpg" alt="interier" class="slider__img"></li>
+                  <li class="slider__item"><img src="./images/models/6.jpg" alt="interier" class="slider__img"></li>
+                </ul>
+              <a href="#" class="right__ship-models slider-control-right" id="right-ship_mob"></a>
+            </div>
+            <div class="models__view">
+              <div class="models__btn">
+                <a href="Catalog.pdf" class="models__btn_link">Полный каталог</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="catalog" id="catalog">
+        <div class="container">
+          <div class="doors__wrapper">
+            <div class="doors__title-wrapper">
+              <h2 class="doors__title">Каталог</h2>
+            </div>
+            <div class="doors__catalog">
+              <ul class="doors__list" id="doors">
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/eleven/StatusAntracit.jpg" alt="door" id="therty-nine" class="door__img door__img_active">
+                      <img src="./images/doors/eleven/StatusAntracitGlass.jpg" alt="door" id="fourty" class="door__img">
+                      <img src="./images/doors/eleven/StatusGrayPastel.jpg" alt="door" id="fourty-one" class="door__img">
+                      <img src="./images/doors/eleven/StatusGrayPastelGlass.jpg" alt="door" id="fourty-two" class="door__img">
+                      <img src="./images/doors/eleven/StatusMagnolia.jpg" alt="door" id="fourty-three" class="door__img">
+                      <img src="images/doors/eleven/" alt="" id="fourty-four" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">STATUS</div>
+                      <div class="door__desc" id="color-name-eleven">Antracita</div>
+                      <div class="door__price" id="price-door-eleven">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-nine"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fourty-one"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fourty"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fourty-four"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fourty-two"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fourty-three"></button>
+                          </li>                        
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/first/EpicaPatina.jpg" alt="door" id="one" class="door__img door__img_active">
+                      <img src="./images/doors/first/EpicaChestnut.jpg" alt="door" id="two" class="door__img">
+                      <img src="./images/doors/first/EpicaGoldenOak.jpg" alt="door" id="three" class="door__img">
+                      <img src="./images/doors/first/EpicaWhiteMatt.jpg" alt="door" id="fourth" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">EPICA</div>
+                      <div class="door__desc" id="color-name-one">Patina</div>
+                      <div class="door__price"  id="price-door-one">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#models" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-one"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-two"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-three"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fourth"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/second/GretaBeechAsh.jpg" alt="door" id="fifth" class="door__img">
+                      <img src="./images/doors/second/GretaVengeNew.jpg" alt="door" id="sixth" class="door__img">
+                      <img src="./images/doors/second/GretaGoldenOak.jpg" alt="door" id="seventh" class="door__img">
+                      <img src="./images/doors/second/GretaGrayPastel.jpg" alt="door" id="eighth" class="door__img door__img_active">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">GRETA</div>
+                      <div class="door__desc" id="color-name-two">Ash beech</div>
+                      <div class="door__price" id="price-door-two">30000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fifth"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-sixth"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-seventh"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-eighth"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/third/MuseGreyNew.jpg" alt="door" id="ninth" class="door__img">
+                      <img src="./images/doors/third/MuseAlderSatin.jpg" id="tenth" alt="door" class="door__img">
+                      <img src="./images/doors/third/MuseChestnut.jpg" alt="door" id="eleventh" class="door__img">
+                      <img src="./images/doors/third/MuseWhiteMatt.jpg" alt="door" id="twelfth" class="door__img door__img_active">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">MUZA</div>
+                      <div class="door__desc" id="color-name-three">Grey new</div>
+                      <div class="door__price" id="price-door-three">40000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-ninth"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-tenth"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-eleventh"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twelfth"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/fourth/ValenciaAlderNew.jpg" alt="door" id="thirteen" class="door__img door__img_active">
+                      <img src="./images/doors/fourth/ValenciaBeechAsh.jpg" alt="door" id="fourteen" class="door__img">
+                      <img src="./images/doors/fourth/ValenciaBeechChateau.jpg" alt="door" id="fifteen" class="door__img">
+                      <img src="./images/doors/fourth/ValenciaSatinBeechCashmere.jpg" alt="door" id="sixteen" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">VALENCIA</div>
+                      <div class="door__desc" id="color-name-fourth">Grey pastel</div>
+                      <div class="door__price" id="price-door-fourth" >0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-thirteenth"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fourteenth"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-fifteenth"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-sixteenth"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/fifth/DellaBlackAlderNew.jpg" alt="door" id="seventeen" class="door__img">
+                      <img src="./images/doors/fifth/DellaVengeNew.jpg" alt="door" id="eighteen" class="door__img door__img_active">
+                      <img src="./images/doors/fifth/DellGoldenOak.jpg" alt="door" id="nineteen" class="door__img">
+                      <img src="./images/doors/fifth/DellaAlderNew.jpg" alt="door" id="twenty" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">DELLA</div>
+                      <div class="door__desc" id="color-name-fifth">Grey pastel</div>
+                      <div class="door__price" id="price-door-fifth">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-seventeen"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-eighteen"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-nineteen"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/sixth/ImageMagnolia.jpg" alt="door" id="twenty-one" class="door__img door__img_active">
+                      <img src="./images/doors/sixth/ImageGrayPastel.jpg" alt="door" id="twenty-two" class="door__img">
+                      <img src="./images/doors" alt="" id="twenty-three" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">IMIGE</div>
+                      <div class="door__desc" id="color-name-sixth">Magnolie</div>
+                      <div class="door__price" id="price-door-sixth">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-one"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-two"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-three"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/seventh/LauraBlackGoldenOak.jpg" alt="door" id="twenty-four" class="door__img door__img_active">
+                      <img src="./images/doors/seventh/LauraBlackChestnut.jpg" alt="door" id="twenty-five" class="door__img">                      </div>
+                    <div class="door__info">
+                      <div class="door__name">LAURA</div>
+                      <div class="door__desc" id="color-name-seven">Grey pastel</div>
+                      <div class="door__price" id="price-door-seven">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-four"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-five"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/nineth/MeridaBeechBavarian.jpg" alt="door" id="therty" class="door__img door__img_active">
+                      <img src="./images/doors/nineth/MeridaBeechCashmere.jpg" alt="door" id="therty-one" class="door__img">
+                      <img src="./images/doors/nineth/MeridaBeechTobacco.jpg" alt="door" id="therty-two" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">MERIDA</div>
+                      <div class="door__desc" id="color-name-nine">Beech Bavarian</div>
+                      <div class="door__price" id="price-door-nine">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-one"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-two"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/eight/LineaBlackAlderNew.jpg" alt="door" id="twenty-six" class="door__img door__img_active">
+                      <img src="./images/doors/eight/LinneaGoldenAsh.jpg" alt="door" id="twenty-seven" class="door__img">
+                      <img src="./images/doors/eight/LinneaVengeNew.jpg" alt="door" id="twenty-eight" class="door__img">
+                      <img src="./images/doors/eight/LinneaAntracit.jpg" alt="door" id="twenty-nine" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">LINNEA</div>
+                      <div class="door__desc" id="color-name-eight">Grey pastel</div>
+                      <div class="door__price" id="price-door-eight">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-six"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-seven"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-eight"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-twenty-nine"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="doors__item door">
+                  <div class="door__main">
+                    <div class="door__img-wrapper">
+                      <img src="./images/doors/ten/PrestigeAntracit.jpg" alt="door" id="therty-three" class="door__img door__img_active">
+                      <img src="./images/doors/ten/PrestigeAntracit2.jpg" alt="door" id="therty-four" class="door__img">
+                      <img src="./images/doors/ten/PrestigeGrayPsatel2.jpg" alt="door" id="therty-five" class="door__img">
+                      <img src="./images/doors/ten/PrestigeGrayPastel.jpg" alt="door" id="therty-six" class="door__img">
+                      <img src="./images/doors/ten/PrestigeMagnolia.jpg" alt="door" id="therty-seven" class="door__img">
+                      <img src="./images/doors/ten/PrestigeMagnoliaGlass.jpg" alt="door" id="therty-eight" class="door__img">
+                    </div>
+                    <div class="door__info">
+                      <div class="door__name">PRESTIGE</div>
+                      <div class="door__desc" id="color-name-ten">Antracit</div>
+                      <div class="door__price" id="price-door-ten">0000,0 CZK</div>
+                    </div>
+                    <div class="door__btn">
+                      <a href="#" class="door__btn_link">Дверь в интерьере</a>
+                    </div>
+                    <div class="doors__switcher">
+                      <div class="doors__switcher-wrap">
+                        <ul class="switcher__list">
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-three"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-five"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-seven"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-six"></button>
+                          </li>
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-four"></button>
+                          </li>                        
+                          <li class="switcher__item">
+                            <button class="switcher__btn" id="switcher-therty-eight"></button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="decor" id="decor">
+        <div class="container">
+          <div class="decor__wrapper">
+            <div class="decor__left">
+              <h2 class="decor__left_title title">Декоры</h2>
+              <div class="decor__colors colors">
+                <h4 class="colors__title"><button class="colors__btn colors__btn_active" id="btn_ultra">ПВХ Ультра</button></h4>
+                <ul class="colors__list">
+                  <li class="colors__item colors__item_one"></li>
+                  <li class="colors__item colors__item_two"></li>
+                  <li class="colors__item colors__item_three"></li>
+                </ul>
+              </div>
+              <div class="decor__colors colors">
+                <h4 class="colors__title"><button class="colors__btn" id="btn_deluxe">ПВХ Делюкс</button></h4>
+                <ul class="colors__list">
+                  <li class="colors__item colors__item_four"></li>
+                  <li class="colors__item colors__item_five"></li>
+                  <li class="colors__item colors__item_six"></li>
+                </ul>
+              </div>
+              <div class="decor__colors colors">
+                <h4 class="colors__title"><button class="colors__btn" id="btn_viva">ПВХ Вива</button></h4>
+                <ul class="colors__list">
+                  <li class="colors__item colors__item_seven"></li>
+                  <li class="colors__item colors__item_eight"></li>
+                  <li class="colors__item colors__item_nine"></li>
+                </ul>
+              </div>
+              <div class="decor__colors colors">
+                <h4 class="colors__title"><button class="colors__btn" id="btn_smart">SmartCover</button></h4>
+                <ul class="colors__list">
+                  <li class="colors__item colors__item_ten"></li>
+                  <li class="colors__item colors__item_eleven"></li>
+                  <li class="colors__item colors__item_twelv"></li>
+                </ul>
+              </div>
+              <div class="decor__colors colors">
+                <h4 class="colors__title"><button class="colors__btn" id="btn_premium">ПП Премиум</button></h4>
+                <ul class="colors__list">
+                  <li class="colors__item colors__item_threeteen"></li>
+                  <li class="colors__item colors__item_fourteen"></li>
+                  <li class="colors__item colors__item_fifteen"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="decor__right">
+              <div class="decor__right_content decor-info_ultra">
+                <h2 class="decor-info_title">ПВХ Ультра</h2>
+                <p class="decor-info__desc">ПВХ Ultra — это новая палитра оттенков полимерного покрытия ТМ «Новый Стиль». Декор устойчив к перепадам температур, воздействию солнечных лучей, не подвержен порче от ударов и царапин. Обновленная гамма оттенков точно передает фактуру дерева визуально и на ощупь. Цвета ПВХ Ultra выглядят естественно и максимально приближены к натуральной древесине. Двери в ПВХ Ultra сложно отличить от дверей из массива или шпона.
+                  </p>
+                <ul class="decor-info__list">
+                  <li class="decor-info__item">
+                    <div class="decor-info ultra__one"></div>
+                    <p class="decor-info__col-desc">Дуб
+                      Дымчатый</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info ultra__two"></div>
+                    <p class="decor-info__col-desc">Дуб
+                      Медовый</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info ultra__three"></div>
+                    <p class="decor-info__col-desc">Дуб
+                      Молочный</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info ultra__four"></div>
+                    <p class="decor-info__col-desc">Дуб
+                      Мускат</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info ultra__five"></div>
+                    <p class="decor-info__col-desc">Дуб
+                      Серый</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="decor__left_content decor-info_deluxe">
+                <h2 class="decor-info_title">ПВХ Делюкс</h2>
+                <p class="decor-info__desc">ПВХ Deluxe — это полимерное покрытие для межкомнатных дверей, устойчивое к перепадам температуры, воздействию ультрафиолета, механическим повреждениям и влаге. Декор из ПВХ очень точно передает рисунок среза дерева, не меняет цвет. Безусловным преимуществом ПВХ DeLuxe является насыщенность и разнообразие цветовой гаммы. Межкомнатные двери в декоре ПВХ сложно отличить от дверей из массива или шпона. Единственное, что их отличает — легкий глянцевый блеск, который напоминает лаковое покрытие. Это покрытие имеет следующие преимущества:
+                  -	Долговечность;
+                  -	Устойчивость к воздействию внешних факторов;
+                  -	Легкость в уходе;
+                  -	Разнообразие рисунков, фактур и цветов;
+                  -	Все двери одного цвета не отличаются по оттенкам (отсутствует разнотон в одном оттенке).</p>
+                <ul class="decor-info__list">
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__one"></div>
+                    <p class="decor-info__col-desc">Grey New</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__two"></div>
+                    <p class="decor-info__col-desc">Патина
+                      серая</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__three"></div>
+                    <p class="decor-info__col-desc">Венге
+                      New</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__four"></div>
+                    <p class="decor-info__col-desc">Патина</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__five"></div>
+                    <p class="decor-info__col-desc">Золотой
+                      дуб</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__six"></div>
+                    <p class="decor-info__col-desc">Бук
+                      Пепельный</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__seven"></div>
+                    <p class="decor-info__col-desc">Ясень
+                      New</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__eight"></div>
+                    <p class="decor-info__col-desc">Золотая
+                      Ольха</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__nine"></div>
+                    <p class="decor-info__col-desc">Белый</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info deluxe__ten"></div>
+                    <p class="decor-info__col-desc">Каштан</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="decor__left_content decor-info_viva">
+                <h2 class="decor-info_title">ПВХ Вива</h2>
+                <p class="decor-info__desc">ПВХ Viva — это современная инновационная виниловая пленка. Полимерное покрытие межкомнатных дверей устойчиво к перепадам температуры, воздействию ультрафиолета, механическим повреждениям и влаге. Декор из ПВХ Viva практически невозможно отличить от деревянного покрытия, не меняет цвет. Преимуществом ПВХ Viva является насыщенность и разнообразие цветовой гаммы, рисунок четко повторяет натуральное дерево. Покрытие имеет следующие преимущества:
+                  устойчивость к воздействию внешних факторов;
+                  долговечность;
+                  разнообразие рисунков, фактур и цветов;
+                  легкость в уходе;
+                  отсутствует разнотон в одном оттенке.</p>
+                <ul class="decor-info__list">
+                  <li class="decor-info__item">
+                    <div class="decor-info viva__one"></div>
+                    <p class="decor-info__col-desc">Бук
+                      Баварский</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info viva__two"></div>
+                    <p class="decor-info__col-desc">Бук
+                      Кашемир</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info viva__three"></div>
+                    <p class="decor-info__col-desc">Бук
+                      Табачный</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info viva__four"></div>
+                    <p class="decor-info__col-desc">Бук 
+                      Шато</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="decor__left_content decor-info_smart">
+                <h2 class="decor-info_title">SmartCover</h2>
+                <p class="decor-info__desc">При создании нового, современного ПВХ декора, мы ставим в приоритет его эстетические качества, практичность и безопасность. Новая серия декоров SmartCover была создана с любовью к потребителям. Мы вдохновились красотой жемчужных переливов и объединили традиционную фактуру натуральной древесины с перламутровым отливом. Двери в покрытии SmartCover долговечные, надежные и стильные. Они выглядят роскошно, поэтому стали бы украшением даже королевского дворца. Эклектика стилей, воплощенная в идее линейки декоров SmartCover, делает ее универсальной. Палитра коллекции подходит под любое направление дизайна. Благодаря благородному отливу и привычной цветовой гамме, она дополняет классические интерьеры, а использование современных материалов и технологий производства делает ее идеальной для новых направлений дизайна, таких, как техно, неоклассика, арт-нуво.</p>
+                <ul class="decor-info__list">
+                  <li class="decor-info__item">
+                    <div class="decor-info smart__one"></div>
+                    <p class="decor-info__col-desc">Жемчуг
+                      magica</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info smart__two"></div>
+                    <p class="decor-info__col-desc">Жемчуг 
+                      белый</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info smart__three"></div>
+                    <p class="decor-info__col-desc">Жемчуг
+                      графит</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info smart__four"></div>
+                    <p class="decor-info__col-desc">Жемчуг
+                      кофейный</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info smart__five"></div>
+                    <p class="decor-info__col-desc">Жемчуг
+                      серебряный</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="decor__left_content decor-info_premium">
+                <h2 class="decor-info_title">ПП Премиум</h2>
+                <p class="decor-info__desc">Полипропиленовое покрытие для межкомнатных дверей «Новый Стиль» имеет следующие преимущества:
+                  экологически чистое, безопасное для здоровья человека на всех этапах производства и при использовании. В его составе нет хлора и галогеновых соединений, поэтому ПП покрытие не выделяет токсичных веществ и не 	пропускает формальдегид;
+                  поверхность покрытия гладкая и приятная, напоминает поверхность обработанного дерева;
+                  при прикосновении вызывает приятное ощущение теплоты, не производит впечатление искусственных или «холодных» дверей, как это бывает с другими полимерными материалами;
+                  благодаря специальному лаковому покрытию устойчиво к механическим воздействиям (царапинам и потертостям);
+                  на изгибах не образуются трещины, изменения цвета. Белизна и глянец сохраняются даже при длительном использовании;
+                  применение натуральных пигментов и красителей позволяет подвергать двери термической утилизации.</p>
+                <ul class="decor-info__list">
+                  <li class="decor-info__item">
+                    <div class="decor-info premium__one"></div>
+                    <p class="decor-info__col-desc">Магнолия</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info premium__two"></div>
+                    <p class="decor-info__col-desc">Белый
+                      матовый</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info premium__three"></div>
+                    <p class="decor-info__col-desc">Белый
+                      матовый</p>
+                  </li>
+                  <li class="decor-info__item">
+                    <div class="decor-info premium__four"></div>
+                    <p class="decor-info__col-desc">Серая
+                      пастель</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fittings" id="fittings">
+        <div class="container">
+          <div class="fittings__wrapper">
+            <div class="fittings__title_wrap">
+              <h1 class="fittings__title title">Фурнитура</h1>
+            </div>
+            <div class="fittings__btn_wrap">
+              <button class="fittings__btn fittings__btn_active" id="switcher__hundles">Дверные ручки</button>
+              <button class="fittings__btn" id="switcher__locks">Замки</button>
+              <button class="fittings__btn" id="switcher__latch">Защёлки</button>
+              <button class="fittings__btn" id="switcher__pads">Накладки</button>
+              <button class="fittings__btn" id="switcher__retainers">Фиксаторы</button>
+              <button class="fittings__btn" id="switcher__hinges">Петли</button>
+            </div>
+            <div class="fittings__content">
+              <div class="fittings__slider_wrap">
+                <div class="fittings__slider_hudles">
+                  <a href="#" class="left__ship-wrapper slider-control-left" id="left-ship_fittings"></a>
+                  <ul class="hundle__list" id="hundle__list-slider">
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_55002_PREMIUM_AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_55002_PREMIUM_AB.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_55002_PREMIUM_CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_55002_PREMIUM_CP.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A55012_PREMIUM_AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A55012_PREMIUM_AB.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56024_KVADRO_X_AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56024_KVADRO_X_AB.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56024_KVADRO_X_CN-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56024_KVADRO_X_CN-CP.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A55202_PREMIUM_SN-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A55202_PREMIUM_SN-CP.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A55202_PREMIUM_AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A55202_PREMIUM_AB.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A55012_PREMIUM_CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A55012_PREMIUM_CP.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56032_KVADRO_AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56032_KVADRO_AB.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56032_KVADRO_SN-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56032_KVADRO_SN-CP.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56036_Kvadro_X_AT</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56036_Kvadro_X_AT.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56096_KVADRO_AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56096_KVADRO_AB.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56096_Kvadro_SN-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56096_Kvadro_SN-CP.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Ручка</h4>
+                      <div class="hundle__desc">NS_A56036_Kvadro_X_SN-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hundles/NS_A56036_Kvadro_X_SN-CP.effectsResult.jpg" alt="hundle" class="hundle__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                  </ul>
+                  <a href="#" class="right__ship-wrapper slider-control-right" id="right-ship_fittings"></a>
+                </div>
+                <div class="fittings__slider_lock">
+                  <a href="#" class="left__ship-wrapper slider-control-left" id="left-ship_lock"></a>
+                  <ul class="hundle__list lock__list" id="lock__list-slider">
+                    <li class="hundle__item lock__item">
+                      <h4 class="lock__title hundle__title">Замок дверной</h4>
+                      <div class="lock__desc hundle__desc">NS - 170</div>
+                      <div class="lock__img_wrap">
+                        <img src="./images/locks/lock410B-CP.jpg" alt="lock410B-CP" class="lock__img">
+                      </div>
+                      <div class="lock__price hundle__price">0000,0 CZK</div>
+                    </li>
+                    <li class="hundle__item lock__item">
+                      <h4 class="lock__title hundle__title">Замок дверной</h4>
+                      <div class="lock__desc hundle__desc">NS - 170</div>
+                      <div class="lock__img_wrap">
+                        <img src="./images/locks/lock410B-AT.jpg" alt="lock410B-AT" class="lock__img">
+                      </div>
+                      <div class="lock__price hundle__price">0000,0 CZK</div>
+                    </li>
+                    <li class="hundle__item lock__item">
+                      <h4 class="lock__title hundle__title">Замок дверной</h4>
+                      <div class="lock__desc hundle__desc">NS - 170</div>
+                      <div class="lock__img_wrap">
+                        <img src="./images/locks/lock410С-AT.jpg" alt="lock410С-AT" class="lock__img">
+                      </div>
+                      <div class="lock__price hundle__price">0000,0 CZK</div>
+                    </li>
+                    <li class="hundle__item lock__item">
+                      <h4 class="lock__title hundle__title">Замок дверной</h4>
+                      <div class="lock__desc hundle__desc">NS - 170</div>
+                      <div class="lock__img_wrap">
+                        <img src="./images/locks/lock410С-CP.jpg" alt="lock410С-CP" class="lock__img">
+                      </div>
+                      <div class="lock__price hundle__price">0000,0 CZK</div>
+                    </li>
+                    <li class="hundle__item lock__item">
+                      <h4 class="lock__title hundle__title">Замок дверной</h4>
+                      <div class="lock__desc hundle__desc">NS - 170</div>
+                      <div class="lock__img_wrap">
+                        <img src="./images/locks/lockNS-170-CP.jpg" alt="lockNS-170-CP" class="lock__img">
+                      </div>
+                      <div class="lock__price hundle__price">0000,0 CZK</div>
+                    </li>
+                  </ul>
+                  <a href="#" class="right__ship-wrapper slider-control-right" id="right-ship_lock"></a>
+                </div>
+                <div class="fittings__slider_latch">
+                  <a href="#" class="left__ship-wrapper slider-control-left" id="left-ship_latch"></a>
+                  <ul class="hundle__list latch__list" id="latch__list-slider">
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Защелка дверная</h4>
+                      <div class="hundle__desc">NS_100-AB PVC</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/latch/latch100-AB.jpg" alt="latch100-AB" class="latch__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Защелка дверная</h4>
+                      <div class="hundle__desc">NS_100-AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/latch/latch100-AB2.jpg" alt="latch100-AB2" class="latch__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Защелка дверная</h4>
+                      <div class="hundle__desc">NS_100-AT</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/latch/latch100-AT.jpg" alt="latch100-AT" class="latch__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Защелка дверная</h4>
+                      <div class="hundle__desc">NS_100-CP PVC</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/latch/latch100-CP.jpg" alt="latch100-CP" class="latch__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Защелка дверная</h4>
+                      <div class="hundle__desc">NS_100-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/latch/latch100-CP2.jpg" alt="latch100-CP2" class="latch__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                  </ul>
+                  <a href="#" class="right__ship-wrapper slider-control-right" id="right-ship_latch"></a>
+                </div>
+                <div class="fittings__slider_pads">
+                  <a href="#" class="left__ship-wrapper slider-control-left" id="left-ship_pad"></a>
+                  <ul class="hundle__list pads__list" id="pads__list-slider">
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Накладка</h4>
+                      <div class="hundle__desc">NS 16K-AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/pads/pad16K-AB.jpg" alt="pad16K-AB" class="pad__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Накладка</h4>
+                      <div class="hundle__desc">NS 16K-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/pads/pad16K-CP.jpg" alt="pad16K-CP" class="pad__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Накладка</h4>
+                      <div class="hundle__desc">NS Z55 KVADRO SN-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/pads/padZ55SN-CP.jpg" alt="padZ55SN-CP" class="pad__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Накладка</h4>
+                      <div class="hundle__desc">NS Z55 KVADRO X AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/pads/pafZ55XAB.jpg" alt="pafZ55XAB" class="pad__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Накладка</h4>
+                      <div class="hundle__desc">NS Z55 KVADRO X AT matt</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/pads/padZ55XAT.jpg" alt="padZ55XAT" class="pad__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Накладка</h4>
+                      <div class="hundle__desc">NS Z55-PZ-R0101-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/pads/padZ55-PZ-R0101-CP.jpg" alt="padZ55-PZ-R0101-CP" class="pad__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                  </ul>
+                  <a href="#" class="right__ship-wrapper slider-control-right" id="right-ship_pad"></a>
+                </div>
+                <div class="fittings__slider_retainers">
+                  <a href="#" class="left__ship-wrapper slider-control-left" id="left-ship_retainer"></a>
+                  <ul class="hundle__list retainer__list" id="retainers__list-slider">
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-AT</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WC-R0107W-AT.jpg" alt="retainerZ55-WC-R0107W-AT" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC R0107W-AB</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WCR0107W-AB.jpg" alt="retainerZ55-WCR0107W-AB" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC R0107W-AB </div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WCR0107W-AB2.jpg" alt="retainerZ55-WCR0107W-AB2" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-AB X</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WCR0107W-AB2.jpg" alt="retainerZ55-WCR0107W-AB2" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-AB</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WC-R0107W-AB4.jpg" alt="retainerZ55-WC-R0107W-AB4" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-AB P</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WC-R0107W-AB3.jpg" alt="retainerZ55-WC-R0107W-AT3" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-AT</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WC-R0107W-AT2.jpg" alt="retainerZ55-WC-R0107W-AT2" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-CP</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WC-R0107W-CP.png" alt="retainerZ55-WC-R0107W-CP" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-SN-CP</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WC-R0107W-SN-CP.jpg" alt="retainerZ55-WC-R0107W-SN-CP" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-AB</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WCR0107W-AB3.jpg" alt="retainerZ55-WCR0107W-AB3" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-CP</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WCR0107W-CP.jpg" alt="retainerZ55-WCR0107W-CP" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Фиксатор</h4>
+                      <div class="hundle__desc">NS Z55-WC-R0107W-CP</div>
+                      <div class="retainers__img_wrap">
+                        <img src="./images/retainer/retainerZ55-WCR0107W-CP2.jpg" alt="retainerZ55-WCR0107W-CP2" class="retainers__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                  </ul>
+                  <a href="#" class="right__ship-wrapper slider-control-right" id="right-ship_retainer"></a>
+                </div>
+                <div class="fittings__slider_hinges">
+                  <a href="#" class="left__ship-wrapper slider-control-left" id="left-ship_hinges"></a>
+                  <ul class="hundle__list hinges__list" id="hinges__list-slider">
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Петля</h4>
+                      <div class="hundle__desc">NS 100 63-2BB-AB</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hinge/hinge10063-2BB-AB.jpg" alt="hinge10063-2BB-AB" class="hinges__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Петля</h4>
+                      <div class="hundle__desc">NS 100 63-2BB-AT</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hinge/hinge10063-2BB-AT.jpg" alt="hinge100 63-2BB-AT" class="hinges__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Петля</h4>
+                      <div class="hundle__desc">NS 100 63-2BB-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hinge/hinge10063-2BB-CP.jpg" alt="hinge100 63-2BB-CP" class="hinges__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Петля</h4>
+                      <div class="hundle__desc">NS 100 63-2BB-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hinge/hinge10075-2BB-CP2.jpg" alt="hinge100 75-2BB-CP2" class="hinges__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                    <li class="hundle__item">
+                      <h4 class="hundle__title">Петля</h4>
+                      <div class="hundle__desc">NS 100 63-1BB-CP</div>
+                      <div class="hundle__img_wrap">
+                        <img src="./images/hinge/hinge10070-1BB-CP.jpg" alt="hinge100 70-1BB-CP3" class="hinges__img">
+                      </div>
+                      <div class="hundle__price">000,00 CZK</div>
+                    </li>
+                  </ul>
+                  <a href="#" class="right__ship-wrapper slider-control-right" id="right-ship_hinges"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="types">
+        <div class="types-col-left">
+          <div class="types-col-left-wrap">
+            <div class="types-col__title">
+              <h1 class="types-col__title_grey title">Типы</h1>
+              <h1 class="types-col__title_white title">открываний</h1>
+            </div>
+            <p class="types-col__desc">Перед началом установки двери необходимо определиться с типом её открывания, потому что фурнитура (петли, врезные замки) для разных типов открывания отличаются.</p>
+          </div>
+        </div>
+        <div class="types-col-right">
+          <div class="instruction">
+            <div class="instruction__left">
+              <h2 class="instruction__title">Левая дверь</h2>
+              <div class="instruction__wrap">
+                <div class="instruction__content">
+                  <img src="./images/types/left_outside_merge.png" alt="" class="instruction__img">
+                  <p class="instruction__desc">Дверь открывается наружу</p>
+                </div>
+                <div class="instruction__content">
+                  <img src="./images/types/left_inside_merge.png" alt="" class="instruction__img">
+                  <p class="instruction__desc">Дверь открывается внутрь</p>
+                </div>
+              </div>
+            </div>
+            <div class="instruction__rigth">
+              <h2 class="instruction__title">Правая дверь</h2>
+              <div class="instruction__wrap">
+                <div class="instruction__content">
+                  <img src="./images/types/right_outside_merge.png" alt="" class="instruction__img">
+                  <p class="instruction__desc">Дверь открывается наружу</p>
+                </div>
+                <div class="instruction__content">
+                  <img src="./images/types/right_inside_merge.png" alt="" class="instruction__img">
+                  <p class="instruction__desc">Дверь открывается внутрь</p>
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="constructions">
+        <div class="container">
+          <div class="constructions-wrapper">
+            <h2 class="constructions__title title"><span class="constructions__title-brown">
+              Конструкции
+            </span> наших дверей</h2>
+            <div class="constructions__content-wrap">
+              <div class="constructions__img-wrap">
+                <img src="./images/constructions/doorLeft.png" alt="left part of door" class="constructions__img" id="animate__img-left">
+                <img src="./images/constructions/doorRight.png" alt="right part of door" class="constructions__img" id="animate__img-right">
+              </div>
+              <div class="constructions__desc-wrap">
+                <h3 class="constructions__desc-title">Характеристики межкомнатных дверей:</h3>
+                <p class="constructions__desc">В нашем каталоге представлены различные модели сборных дверей, их особенностями, являются особая прочность и устойчивость к физическим воздействиям.</p>
+                <p class="constructions__desc">Благодаря применению крепёжного материала для сборки вместо клея, эти полотна при необходимости легко ремонтируются, а за счёт дополнительного навеса не провисают и в любых условиях работают исправно.</p>
+                <p class="constructions__desc">Наши двери изготавливаются с испмользованием безкромковой технологии. Это позволяет обернуть каждый элемент облицовочным материалом. </p>
+                <p class="constructions__desc">Сборная конструкция дверного полотна предусматривает возможность замены отдельных деталей при повреждении. </p>
+                <p class="constructions__desc">Каркас полотна имеет собственные усиленные прочностные характеристики, что в целом дает ощутимый результат при ежедневной эксплуатации на протяжении многих лет (срок эксплуатации может достигать 50 лет).</p>
+              </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages-wrapper">
+            <h2 class="advantages__title title">Преимущества данной<span class="advantages__title-brown">
+              технологии:
+            </span></h2>
+            <div class="advantages__content-wrap">
+              <div class="advantages__desc-wrap">
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/safe.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Достаточная жесткость конструкции элементов, меньший вес полотна по сравнению с цельным брусом;</p>
+                </div>
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/feather.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Уменьшенный вес дверного полотна позволяет транспортировать большее количество продукции одновременно;</p>
+                </div>
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/clock.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Позволяет уменьшить нагрузку на замки, петли, и, в результате, увеличивает срок службы фурнитуры;</p>
+                </div>
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/WarpTool.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Минимизирует возможность появления провисания и перекоса дверного полотна, что может привести к ремонту или замене;</p>
+                </div>
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/strong.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Исключает возможность деформации и искривления в случаях влияния перепадов температур и влажности;</p>
+                </div>
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/Bicep.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Стойкость к изгибающему моменту (способность восстанавливать положение после механического воздействия);</p>
+                </div>
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/quality.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Дверное полотно проходит многоэтапный контроль качества, а также испытания на ресурс на тестовом стенде в формате «закрытие-открытие с усилием».</p>
+                </div>
+                <div class="advantages__prgh_wrap">
+                  <embed type="image/svg+xml" src="./images/icons/green.svg" class="advantages__icon" />
+                  <p class="advantages__desc">Уменьшение объема использования древесины способствует сохранению зеленых насаждений — «легких» нашей планеты.</p>
+                </div>
+              </div>
+              <div class="advantages__img-wrap">
+                <img src="./images/advantages/konstr.jpg" alt="" class="advantages__img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <section class="other">
+        <div class="container">
+          <div class="other-wrapper">
+            <h2 class="other__title title">Дополнительный
+              <span class="other__title_white">ассортимент</span>
+            </h2>
+            <div class="other__main-wrap">
+              <div class="other__content">
+                <div class="other__content-wrap">
+                  <h4 class="other__content__title">Дверные коробки</h4>
+                  <ul class="other__list">
+                    <li class="other__item">
+                      <h5 class="other__item_title">Телескопическая дверная коробка
+                        Материал: МДФ 
+                        </h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/box/коробка1.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2070, 2200 мм</li>
+                        <li class="other__item_desc-item">Ширина: 80, 100 мм</li>
+                        <li class="other__item_desc-item">Ширина: 80, 100 мм</li>
+                      </ul>
+                    </li>
+                    <li class="other__item">
+                      <h5 class="other__item_title">Дверная коробка для евро рынка
+                        Материал: МДФ
+                        </h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/box/коробка2.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2070, 2200 мм</li>
+                        <li class="other__item_desc-item">Ширина: 80, 100 мм</li>
+                        <li class="other__item_desc-item">Толщина: 22 мм</li>
+                      </ul>
+                    </li>
+                    <li class="other__item">
+                      <h5 class="other__item_title">Индивидуальная дверная коробка
+                        Материал: МДФ</h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/box/коробка3.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2070, 2200 мм</li>
+                        <li class="other__item_desc-item">Ширина: 80, 100 мм</li>
+                        <li class="other__item_desc-item">Толщина: 32 мм </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="other__content-wrap">
+                  <h4 class="other__content__title">Доборные элементы</h4>
+                  <div class="other__list">
+                    <div class="other__item">
+                      <h5 class="other__item_title">Планка доборная
+                        Материал: МДФ</h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/plancs/планка.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2060, 2200 мм</li>
+                        <li class="other__item_desc-item">Ширина: 80, 110, 250, 400 мм</li>
+                        <li class="other__item_desc-item">Толщина: 10 мм</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="other__content-wrap">
+                  <h4 class="other__content__title">Плинтусы</h4>
+                  <ul class="other__list">
+                    <li class="other__item">
+                      <h5 class="other__item_title">Плинтус прямоугольный
+                        Материал: МДФ</h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/plinth/плинтус1.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2400 мм</li>
+                        <li class="other__item_desc-item">Ширина: 70 мм</li>
+                        <li class="other__item_desc-item">Толщина: 16 мм </li>
+                      </ul>
+                    </li>
+                    <li class="other__item">
+                      <h5 class="other__item_title">Плинтус прямоугольный
+                        Материал: МДФ</h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/plinth/плинтус2.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2400 мм</li>
+                        <li class="other__item_desc-item">Ширина: 700 мм</li>
+                        <li class="other__item_desc-item">Толщина: 16 мм </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="other__content-wrap">
+                  <h4 class="other__content__title">Наличники</h4>
+                  <ul class="other__list">
+                    <li class="other__item">
+                      <h5 class="other__item_title">Наличник Г-подобный 
+                        Материал: МДФ</h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/blatbands/наличник1.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2200, 2300 мм</li>
+                        <li class="other__item_desc-item">Ширина: 70 мм</li>
+                        <li class="other__item_desc-item">Толщина: 10 мм</li>
+                      </ul>
+                    </li>
+                    <li class="other__item">
+                      <h5 class="other__item_title">Наличник Элегант
+                        Материал: МДФ</h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/blatbands/наличник2.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2200, 2300 мм</li>
+                        <li class="other__item_desc-item">Ширина: 80 мм</li>
+                        <li class="other__item_desc-item">Толщина: 16 м</li>
+                      </ul>
+                    </li>
+                    <li class="other__item">
+                      <h5 class="other__item_title">Наличник Итальяно
+                        Материал: МДФ</h5>
+                      <div class="other__img_wrap">
+                        <img src="./images/blatbands/наличник3.png" alt="" class="other__img">
+                      </div>
+                      <ul class="other__item_desc-list">
+                        <li class="other__item_desc-item">Размеры:</li>
+                        <li class="other__item_desc-item">Длина: 2200, 2300 мм</li>
+                        <li class="other__item_desc-item">Ширина: 90 мм</li>
+                        <li class="other__item_desc-item">Толщина: 10 мм</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <div class="container">
+          <div class="form-wrapper">
+            <h2 class="form__title">Свяжитесь с <span class="form__title-brown">нами</span></h2>
+            <!-- <form class="form" action="mail.php" method="POST">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title-input">Имя</div>
+                  <input type="text" id="name" name="user_name" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title-input">Телефон</div>
+                  <input type="tel" id="phone" name="user_phone" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title-input">E-mail</div>
+                  <input type="email" id="email" name="user_email" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title-input">Комментарий</div>
+                  <textarea tape="text" class="form__input form__input_textarea" name="user_comment" id="text_comment"></textarea>
+                </label>
+              </div>
+              <div class="form__btns">
+                <button type="submit" value="Отправить" id="btn_submit" class="btn main__right_btn">Отправить</button>
+              </div>
+            </form> -->
+            <form class="form">
+
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Site Name">
+              <input type="hidden" name="admin_email" value="info@metaprimus.eu">
+              <input type="hidden" name="form_subject" value="Form Subject">
+              <!-- END Hidden Required Fields -->
+          
+              <label class="form__block">
+                <div class="form__title-input">Имя</div>
+                <input type="text" name="Name" class="form__input" required><br>
+              </label>
+              <label class="form__block">
+                <div class="form__title-input">Телефон</div>
+                <input type="text" name="Phone" class="form__input"><br>
+
+              </label>
+              <label class="form__block">
+                <div class="form__title-input">E-mail</div>
+                <input type="text" name="E-mail" class="form__input" required><br>
+              </label>
+              <label class="form__block">
+                <div class="form__title-input">Комментарий</div>
+                <textarea tape="text" name="Comment" class="form__input form__input_textarea" name="user_comment"></textarea>
+              </label>
+              <div class="form__btns">
+                <button type="submit" class="btn main__right_btn form__btns" id="send">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="kontakt">
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer__logo">
+              <embed type="image/svg+xml" src="./images/icons/GROUPlogo.svg" class="footer__logo_icon" />
+            </div>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#hero" class="footer__link">Главная</a>
+              </li>
+              <li class="footer__item">
+                <a href="#about" class="footer__link">Услуги
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#catalog" class="footer__link">Каталог</a>
+              </li>
+              <li class="footer__item">
+                <a href="#decor" class="footer__link">Декоры</a>
+              </li>
+              <li class="footer__item">
+                <a href="#fittings" class="footer__link">Фурнитура</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Партнеры</a>
+              </li>
+            </ul>
+            <ul class="footer__list_contscts">
+              <li class="footer__item_contacts">
+                <address class="footera__addres">Прага</address>
+              </li>
+              <li class="footer__item_contacts">
+                <a href="" class="footer__telephone">+ 420 xxx xxx xxx</a>
+              </li>
+              <li class="footer__item_contacts">
+                <a href="mailto:info@metaprimus.eu" class="footer__mail">info@metaprimus.eu</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div class="do-it">
+        <div class="do-it_wrap">
+          <a href="mailto:info@metaprimus.eu?subject=door-website-question" class=" do-it_coule do-it_link">Свяжитесь с нами</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="scripts/scroll.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="main.min.js"></script>
+  <script src="scripts/email.js"></script>
+  <script src="scripts/doorsColorSwitcher.js"></script>
+  <script src="scripts/gamburger.js"></script>
+  <script src="scripts/doorsSlider.js"></script>
+  <script src="scripts/fittingsSwitcher.js"></script>
+  <script src="scripts/hundleSlider.js"></script>
+  <script src="scripts/latchSlider.js"></script>
+  <script src="scripts/lockSlider.js"></script>
+  <script src="scripts/padsSlider.js"></script>
+  <script src="scripts/scrollHeader.js"></script>
+  <script src="scripts/sliderModels.js"></script>
+  <script src="scripts/retainerSlider.js"></script>
+  <script src="scripts/hingeSleder.js"></script>
+  <script src="scripts/decorSwitcher.js"></script>
+  <script src="scripts/mail.js"></script>
+</body>
+</html>

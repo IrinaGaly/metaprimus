@@ -1,0 +1,47 @@
+{
+  "name": "MetaPrimusGroup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "gulp": "cross-env NODE_ENV=dev gulp",
+    "build": "cross-env NODE_ENV=prod gulp"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "IE 10"
+  ],
+  "dependencies": {
+    "ajax": "0.0.4",
+    "animate.css": "^4.1.1",
+    "bxslider": "^4.2.14",
+    "cross-env": "^7.0.2",
+    "flickity": "^2.2.1",
+    "gulp": "^4.0.2",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "browser-sync": "^2.26.12",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^3.0.0",
+    "gulp-image": "^6.2.1",
+    "gulp-rm": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-smile-px2rem": "^0.1.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgo": "^2.2.1",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.14.1"
+  }
+}
